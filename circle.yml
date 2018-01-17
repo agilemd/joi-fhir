@@ -1,0 +1,9 @@
+general:
+  artifacts:
+    - "coverage"
+machine:
+  node:
+    version: 6
+test:
+  post:
+    - npm run coverage-circleci
