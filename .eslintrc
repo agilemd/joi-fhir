@@ -2,6 +2,8 @@
   "extends": "airbnb-base",
   "rules": {
     "comma-dangle": 0,
+    "function-paren-newline": "off",
+    "indent": ["error", 2, { "MemberExpression": "off" }],
     "max-len": [2, 100, 2],
     "prefer-rest-params": 0
   }
