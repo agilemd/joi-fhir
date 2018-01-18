@@ -1,6 +1,7 @@
 joi-fhir -- Work in progress
 ==========
 [![CircleCI](https://circleci.com/gh/agilemd/joi-fhir/tree/master.svg?style=svg)](https://circleci.com/gh/agilemd/joi-fhir/tree/master)
+[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
 Node.js utility for validating FHIR resources.
 
