@@ -1,5 +1,6 @@
 joi-fhir -- Work in progress
 ==========
+[![CircleCI](https://circleci.com/gh/agilemd/joi-fhir/tree/master.svg?style=svg)](https://circleci.com/gh/agilemd/joi-fhir/tree/master)
 
 Node.js utility for validating FHIR resources.
 
