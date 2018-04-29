@@ -20,12 +20,11 @@ describe('validate/GenericeResource', () => {
       })
     );
 
-    it('adds id', () =>
+    it('does not add id', () =>
       validate(sampleWithoutId)
       .then((out) => {
         expect(sampleWithoutId.id).to.equal(undefined);
-        expect(out.id).to.be.a('string');
-        expect(out.id.length).to.be.above(1);
+        expect(out.id).to.equal(undefined);
       })
     );
   });
