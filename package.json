@@ -28,7 +28,8 @@
     "url": "https://github.com/agilemd/joi-fhir/issues"
   },
   "engines": {
-    "node": "6.x"
+    "node": "6.x",
+    "node": "8.x"
   },
   "dependencies": {
     "boom": "7.1.1",
